@@ -1,5 +1,7 @@
-title: Minimal theme
-description: Minimal is a theme for GitHub Pages.
+title: أنظمة مدمجة
+description: شرح للموضوع.
+lang: ar-SA
+dir: rtl
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
