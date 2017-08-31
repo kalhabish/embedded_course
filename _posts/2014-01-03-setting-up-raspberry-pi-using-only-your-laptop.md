@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Setting Up Your Raspberry Pi Using Only Your Laptop
+date: 2014-01-03
 ---
 
 So you just got your [Raspberry Pi][rasp-pi] and want to get started but

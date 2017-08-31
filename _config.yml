@@ -5,3 +5,4 @@ dir: rtl
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
+markdown: kramdown
