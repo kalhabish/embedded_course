@@ -34,3 +34,6 @@ plugins:
 show_downloads: true
 google_analytics:
 
+#baseurl: "/jekyll-for-designers" 
+#url: "http://jameswillweb.github.io/jekyll-for-designers" 
+

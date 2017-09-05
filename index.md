@@ -124,7 +124,8 @@ The final element.
 ```
 
 <ul>
-  {% for post in site.posts %}
+  {% assign posts = site.posts | sort: 'date' %}
+  {% for post in posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
