@@ -28,8 +28,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: alhabish
 github_username:  alhabish
 
-twitter:
-  username: alhabish
+#twitter:
+#  username: alhabish
   
 # Build settings
 markdown: kramdown
