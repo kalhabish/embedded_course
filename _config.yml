@@ -27,6 +27,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: alhabish
 github_username:  alhabish
+show_downloads: true
+google_analytics:
 
 #twitter:
 #  username: alhabish
@@ -38,8 +40,7 @@ plugins:
   - jekyll-feed
   
 
-show_downloads: true
-google_analytics:
+
 
 #baseurl: "/jekyll-for-designers" 
 #url: "http://jameswillweb.github.io/jekyll-for-designers" 
