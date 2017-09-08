@@ -1,32 +1,35 @@
-title: أنظمة مدمجة
+title: لنتعلم معاً برمجة الأنظمة المدمجة
 email: kalhabish@gmail.com
+repository: "kalhabish/kalhabish.github.io"
 author: خالد الغامدي
-lang: ar_SA
-locale: ar_SA
+lang: ar-SA
+locale: ar-SA
 dir: rtl
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+description: "خسائر اللازمة ومطالبة حدة بل. الآخر الحلفاء أن غزو, إجلاء وتنامت عدد مع. لقهر معركة لبلجيكا، بـ انه, ربع الأثنان المقيتة في, اقتصّت المحور حدة و. هذه ما طرفاً عالمية استسلام, الصين وتنامت حين ٣٠, ونتج والحزب المذابح كل جوي. أسر كارثة المشتّتون بل, وبعض وبداية الصفحة غزو قد, أي بحث تعداد الجنوب"
+
+# User/Organization page
+#baseurl: "" # the subpath of your site, e.g. /blog
+#url: "https://kalhabish.github.io" 
+# or url: "https://kalhabish.com" if you have a custom domain name
+
+# Project page
+baseurl: "/embedded_course" # the subpath of your site, e.g. /blog
+url: "https://kalhabish.github.io/embedded_course" # the base hostname & protocol for your site, e.g. http://example.com
+
 twitter_username: alhabish
 github_username:  alhabish
-show_downloads: true
+show_downloads: false
 google_analytics:
 
-#twitter:
-#  username: alhabish
-  
 # Build settings
 markdown: kramdown
+kramdown:
+    auto_ids: false
 theme: jekyll-theme-minimal
-plugins:
-  - jekyll-feed
-  
+#plugins:
+#  - jekyll-feed
 
 
-
-#baseurl: "/jekyll-for-designers" 
-#url: "http://jameswillweb.github.io/jekyll-for-designers" 
+#baseurl: "/minimal-mistakes"
+#url: "https://mmistakes.github.io"  
 

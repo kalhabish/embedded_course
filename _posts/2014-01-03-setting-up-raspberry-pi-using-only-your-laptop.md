@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setting Up Your Raspberry Pi Using Only Your Laptop
+title: "الدرس (01): الدول الأربع: الحوار مع قطر يجب ألا تسبقه أية شروط"
 date: 2014-01-03
 ---
 

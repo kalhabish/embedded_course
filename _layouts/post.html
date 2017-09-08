@@ -2,7 +2,9 @@
 layout: default
 ---
 <h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<p class="meta">{{ page.date | date: "%F" }}</p>
+{% if page.last_edit %}<div><i>آخر تحديث كان في <span dir="ltr">{{ page.last_edit | date: "%F" }}</div></i></p>{% endif %}
+<!--{% if page.last_edit %}<p class="meta">){{ page.last_edit | date: "%F" }} (اخر تحديث في </p>{% endif %}-->
 
 <div class="post">
   {{ content }}
