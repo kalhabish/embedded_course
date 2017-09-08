@@ -19,7 +19,7 @@ title: البداية
   {% assign posts = site.posts | sort: 'date' %}
   {% for post in posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{site.url}}/{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
