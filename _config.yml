@@ -16,10 +16,16 @@ description: "خسائر اللازمة ومطالبة حدة بل. الآخر �
 baseurl: "/embedded_course" # the subpath of your site, e.g. /blog
 url: "https://kalhabish.github.io/embedded_course" # the base hostname & protocol for your site, e.g. http://example.com
 
+# According to
+# https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/
+#baseurl: "/embedded_course"
+#url: "https://kalhabish.github.io"
+
 twitter_username: alhabish
 github_username:  alhabish
+linkedin_account: "khalid-alghamidi-59657962"
+google_analytics: UA-106201878-1
 show_downloads: false
-google_analytics:
 
 # Build settings
 markdown: kramdown

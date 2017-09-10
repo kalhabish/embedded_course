@@ -20,17 +20,18 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         <p class="view">
             <a href="{{site.baseurl}}/">الصفحة الرئيسية</a><br>
-            <a href="{{site.baseurl}}/#contents">الدروس</a><br>
+            <!--<a href="{{site.baseurl}}/#contents">الدروس</a><br>-->
+            <a href="{{site.baseurl}}/lessons.html">الدروس</a><br>
             <a href="{{site.baseurl}}/feed.xml" title="Subscribe to our RSS feed">خدمة RSS</a>
         </p>
         <!--{{ '/assets/images/sidebar/rss.svg' | asset_url | img_tag }}-->
           <!--<aside>-->
     <h3>للتواصل</h3>
     <ul class="social">
-    <li><a href="https://github.com/alhabish" title="Github" class="github">Github</a></li>
-    <li><a href="mailto:kalhabish@gmail.com" title="Email" class="mail">Email</a></li>
-    <li><a href="https://www.linkedin.com/in/khalid-alghamidi-59657962/" title="Linked in" class="linked">LinkedIn</a></li>
-    <li><a href="http://www.twitter.com/alhabish" title="Twitter" class="twitter">Twitter</a></li>
+    <li><a href="https://github.com/{{site.github_username}}" title="Github" class="github">Github</a></li>
+    <li><a href="mailto:{{site.email}}" title="Email" class="mail">Email</a></li>
+    <li><a href="https://www.linkedin.com/in/khalid-alghamidi-59657962{{site.linkedin_account}}" title="Linked in" class="linked">LinkedIn</a></li>
+    <li><a href="http://www.twitter.com/{{site.twitter_username}}" title="Twitter" class="twitter">Twitter</a></li>
     </ul>
     <!--</aside>-->
           
@@ -55,12 +56,14 @@
       {{ content }}
 
       </section>
+<!--      
       <footer>
         {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        <p><small>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></small></p>
         {% endif %}
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
+-->
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 

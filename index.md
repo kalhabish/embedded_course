@@ -7,19 +7,20 @@ title: البداية
 
 ويضيف: "ثانياً يجب غلي الشاي مرتين فقط ولثوانٍ معدودة، لأن غليه يفعل حمض التانيك المتواجد به، وهذا الحمض يعمل على امتصاص #الكوليسترول_الضار _بالجسم_، وبالتالي يقي الجسم من #تراكم_الدهون على #الأوعية_الدموية، ويحمي #الشرايين من التصلب، ولذلك تقل نسبة معدلات الإصابة بأمراض القلب والأوعية الدموية في الصعيد حيث يقوم مواطنو الصعيد بغلي الشاي في البراد".
 
-{% include image.html url="assets/images/index/launchpad-tivac.png" description="tm4c123gh6pm" width="50%" height="40%" %}
+<!--{% include image.html url="assets/images/index/launchpad-tivac.png" description="tm4c123gh6pm" width="50%" height="40%" %}-->
+{% include image.html url="assets/images/index/launchpad-tivac.png" description="tm4c123gh6pm" %}
 
 <!--![tm4c123gh6pm](/assets/images/index/launchpad-tivac.png)-->
 <!--![tm4c123gh6pm](/assets/images/index/launchpad-tivac.png){:class="img-responsive"}-->
 
----
 
-## <a name="contents"></a>قائمة الدروس
+
+<!--## <a name="contents"></a>قائمة الدروس
 <ul>
   {% assign posts = site.posts | sort: 'date' %}
   {% for post in posts %}
     <li>
-      <a href="{{site.url}}/{{ post.url }}">{{ post.title }}</a>
+      <a href="{{site.url}}{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
-</ul>
+</ul>-->
