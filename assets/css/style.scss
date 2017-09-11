@@ -55,3 +55,19 @@ aside li {
 .rss {
 	background: url(../images/sidebar/rss.svg) no-repeat;
 }
+
+a.prev {
+  float: left;
+}
+
+a.prev:after {
+    content: " >"
+}
+
+a.next {
+  float: right;
+}
+
+a.next:before {
+  content: "< "
+}
