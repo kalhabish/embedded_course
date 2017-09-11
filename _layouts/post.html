@@ -4,14 +4,6 @@ layout: default
 <h1>{{ page.title }}</h1>
 <p class="meta">{{ page.date | date: "%F" }}</p>
 {% if page.last_edit %}<div><i>آخر تحديث كان في <span dir="ltr">{{ page.last_edit | date: "%F" }}</div></i></p>{% endif %}
-<!--{% if page.last_edit %}<p class="meta">){{ page.last_edit | date: "%F" }} (اخر تحديث في </p>{% endif %}-->
-
-<!--<div class="post">
-  {{ content }}
-</div>-->
-
-
-
 
 <!-- from https://github.com/cstack/db_tutorial -->
 
@@ -38,7 +30,7 @@ layout: default
           <a class="next" href="{{site.baseurl}}{{ next_post.url }}">{{next_post.title}}</a> <br>
       {% endif %}
 
-      <p>{{ content }}</p>
+      <div class="post">{{ content }}</div>
 
       {% if prev_post %}
           <a class="prev" href="{{site.baseurl}}{{ prev_post.url }}">{{prev_post.title}}</a> <br>
