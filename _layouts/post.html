@@ -5,7 +5,7 @@ layout: default
 <p class="meta">{{ page.date | date: "%F" }}</p>
 {% if page.last_edit %}<div><i>آخر تحديث كان في <span dir="ltr">{{ page.last_edit | date: "%F" }}</div></i></p>{% endif %}
 
-<div class="post">{{ content }}</div>
+<!--<div class="post">{{ content }}</div>-->
 
 <!-- from https://github.com/cstack/db_tutorial -->
 
@@ -34,7 +34,7 @@ layout: default
           <a class="next" href="{{site.baseurl}}{{ next_post.url }}">{{next_post.title}}</a> <br>
       {% endif %}
 
-{% comment %}
+
     <div class="post">{{ content }}</div>
 
       {% if prev_post %}
@@ -45,7 +45,7 @@ layout: default
       {% endif %}
 
 <br><br>
-
+{% comment %}
     {% include comments-new.html %}
     {% include comments.html %}
 
