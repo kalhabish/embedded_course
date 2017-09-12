@@ -1,4 +1,5 @@
-#theme: jekyll-theme-minimal
+theme: jekyll-theme-minimal
+encoding: UTF-8
 title: لنتعلم معاً برمجة الأنظمة المدمجة
 email: kalhabish@gmail.com
 repository: "kalhabish/kalhabish.github.io"
