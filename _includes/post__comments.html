@@ -1,8 +1,5 @@
 
-  <section class="post__comments">
-{% comment %}
-    {% if site.repository and site.staticman.branch %}
-{% endcomment %}   
+  <section class="post__comments"> 
       {% if site.data.comments[page.slug] %}     
         <!-- Start static comments -->
         <div id="comments" class="js-comments">
@@ -56,8 +53,5 @@
           <button type="submit" id="comment-form-submit" tabindex="5" class="btn btn--large">Submit Comment</button>
         </fieldset>
       </form>
-      <!-- End new comment form -->
-{% comment %}      
-    {% endif %}
-{% endcomment %}      
+      <!-- End new comment form -->     
   </section>
