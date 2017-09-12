@@ -1,8 +1,10 @@
-allowedFields: ['name', 'email', 'message']
+allowedFields: ['name', 'email', 'url', 'message']
 branch: gh-pages
-commitMessage: "There's been a new message left!"
-filename: "entry{@timestamp}"
+commitMessage: "New comment."
+#filename: "entry{@timestamp}"
+filename: comment-{@timestamp}
 format: yml
 moderation: false
-path: "_data/comments"
+#path: "_data/comments"
+path: "_data/comments/{options.slug}"
 requiredFields: ['name', 'email', 'message']
