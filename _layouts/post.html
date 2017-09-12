@@ -5,9 +5,12 @@ layout: default
 <p class="meta">{{ page.date | date: "%F" }}</p>
 {% if page.last_edit %}<div><i>آخر تحديث كان في <span dir="ltr">{{ page.last_edit | date: "%F" }}</div></i></p>{% endif %}
 
+<div class="post">{{ content }}</div>
+
 <!-- from https://github.com/cstack/db_tutorial -->
 
-<!--      {% for post in site.posts %}
+{% comment %}
+      {% for post in site.posts %}
           {% if post.url == page.url %}
               {% assign is_post = true %}
               {% assign post_index0 = forloop.index0 %}
@@ -28,11 +31,11 @@ layout: default
       {% endif %}
       {% if next_post %}
           <a class="next" href="{{site.baseurl}}{{ next_post.url }}">{{next_post.title}}</a> <br>
-      {% endif %}-->
+      {% endif %}
 
     <div class="post">{{ content }}</div>
 
-<!--      {% if prev_post %}
+      {% if prev_post %}
           <a class="prev" href="{{site.baseurl}}{{ prev_post.url }}">{{prev_post.title}}</a> <br>
       {% endif %}
       {% if next_post %}
@@ -42,4 +45,6 @@ layout: default
 <br><br>
 
     {% include comments-new.html %}
-    {% include comments.html %}-->
+    {% include comments.html %}
+
+{% endcomment %}
