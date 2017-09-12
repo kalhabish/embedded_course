@@ -35,6 +35,16 @@ theme: jekyll-theme-minimal
 #plugins:
 #  - jekyll-feed
 
+# Staticman
+staticman:
+ allowedFields: ['name', 'email', 'message']
+ branch: gh-pages
+ commitMessage: "There's been a new message left!"
+ filename: "entry{@timestamp}"
+ format: yml
+ moderation: false
+ path: "_data/comments"
+ requiredFields: ['name', 'email', 'message']
 
 #baseurl: "/minimal-mistakes"
 #url: "https://mmistakes.github.io"  
