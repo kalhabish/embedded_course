@@ -12,15 +12,3 @@ title: البداية
 
 <!--![tm4c123gh6pm](/assets/images/index/launchpad-tivac.png)-->
 <!--![tm4c123gh6pm](/assets/images/index/launchpad-tivac.png){:class="img-responsive"}-->
-
-
-
-<!--## <a name="contents"></a>قائمة الدروس
-<ul>
-  {% assign posts = site.posts | sort: 'date' %}
-  {% for post in posts %}
-    <li>
-      <a href="{{site.url}}{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>-->
