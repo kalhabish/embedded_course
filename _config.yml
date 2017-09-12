@@ -2,7 +2,8 @@ theme: jekyll-theme-minimal
 encoding: UTF-8
 title: لنتعلم معاً برمجة الأنظمة المدمجة
 email: kalhabish@gmail.com
-repository: "kalhabish/kalhabish.github.io"
+#repository: "kalhabish/kalhabish.github.io"
+repository: "kalhabish/embedded_course"
 author: خالد الغامدي
 lang: ar-SA
 locale: ar-SA
