@@ -9,7 +9,7 @@ layout: default
 
 <!-- from https://github.com/cstack/db_tutorial -->
 
-{% comment %}
+
       {% for post in site.posts %}
           {% if post.url == page.url %}
               {% assign is_post = true %}
@@ -26,6 +26,7 @@ layout: default
           {% endif %}
       {% endfor %}
 
+{% comment %}
       {% if prev_post %}
           <a class="prev" href="{{site.baseurl}}{{ prev_post.url }}">{{prev_post.title}}</a> <br>
       {% endif %}
