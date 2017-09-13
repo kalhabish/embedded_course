@@ -1,5 +1,5 @@
-allowedFields: ['name', 'email', 'url', 'message']
-branch: gh-pages
+allowedFields: ['name', 'email', 'url', 'message', "replying_to"]
+branch: "gh-pages"
 commitMessage: "New comment."
 #filename: "entry{@timestamp}"
 filename: comment-{@timestamp}
