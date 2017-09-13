@@ -4,6 +4,7 @@
   var $comments = $('.js-comments');
 
   $('#comment-form').submit(function () {
+      showAlert('Hello!');
     var form = this;
 
     $(form).addClass('disabled');
