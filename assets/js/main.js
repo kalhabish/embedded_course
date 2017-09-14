@@ -1,3 +1,6 @@
+/*$(function() {
+    alert( 'JavaScript Loaded!' );
+});*/
 
 // Static comments
 (function ($) {
